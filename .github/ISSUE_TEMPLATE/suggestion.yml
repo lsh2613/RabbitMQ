@@ -1,0 +1,11 @@
+name: "💭 Discussion"
+description: '논의할 내용이 있나요?'
+labels: "💭 Discussion"
+body:
+  - type: textarea
+    attributes:
+      label: 💬 Description
+      description: 논의 주제에 대한 설명을 작성해주세요!
+      placeholder: 자세히 적을수록 좋습니다!
+    validations:
+      required: true
