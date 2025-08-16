@@ -1,0 +1,19 @@
+name: "⚙️ Chore"
+description: '기타 작업이 있나요?'
+labels: "⚙️ Chore"
+body:
+  - type: textarea
+    attributes:
+      label: 💬 Description
+      description: 작업에 대한 설명을 작성해 주세요!
+      placeholder: 자세히 적을수록 좋습니다.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 📌 Tasks
+      description: 해야 하는 일을 작성해 주세요!
+      placeholder: 최대한 세분화 해서 적어주세요.
+    validations:
+      required: true
+
